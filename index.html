@@ -1,19 +1,18 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-  </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <title>PokemonGo Enhanced</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id="root" style="height: 100%"></div>
 
-  <script>
-    // You can also require other files to run in this process
-    require('./renderer.js')
-  </script>
+    <script>
+      require('./vendor.2f10a125d1f870c04f3e.js');
+      require('./app.ffd0b172c1b626db48b6.js');
+    </script>
+
+</body>
 </html>
+

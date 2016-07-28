@@ -1,5 +1,5 @@
 {
-  "name": "electron-quick-start",
+  "name": "enhanced-electron",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "url": "git+https://github.com/PokemonGo-Enhanced/Enhanced-Electron.git"
   },
   "keywords": [
     "Electron",
@@ -17,12 +17,11 @@
     "tutorial"
   ],
   "author": "GitHub",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
-  },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "license": "",
   "devDependencies": {
-    "electron-prebuilt": "^1.2.0"
+    "electron-prebuilt": "*"
+  },
+  "dependencies": {
+    "enhanced-backend": "github:pokemongo-enhanced/Enhanced-Backend"
   }
 }
